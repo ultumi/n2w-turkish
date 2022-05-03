@@ -1,6 +1,13 @@
 # -*- coding: utf-8 -*-
 
 def n2w(number):
+	# NORMALIZATION
+	inputvalue = ""
+	for i in number:
+		if i.isnumeric():
+			inputvalue += i
+	number = inputvalue
+
 	while number[0] == "0" and len(number) > 1:
 		number = number[1:]
 
@@ -71,4 +78,4 @@ def n2w(number):
 
 	return " ".join(result.split())
 
-print(n2w("84680273"))
+print(n2w("84.680.273"))

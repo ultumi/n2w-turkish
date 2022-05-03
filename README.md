@@ -2,10 +2,11 @@
 This is the Number-to-Word function for Turkish
 
 ### How to Use
-It's very easy. Let's type a number in the string format as the input. Please don't use any punctuations or whitespaces. Here's an example:
+It's very easy. Let's type a number in the string format as the input. If you want to use some punctuations such as comma, point to divide the number to units easily, it doesn't matter. Here's an example:
 
 ```python
 n2w("84680273")
+n2w("84.680.273")
 ```
 
 ### Limits
