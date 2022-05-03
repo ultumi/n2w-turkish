@@ -38,7 +38,7 @@ def n2w(number):
 			"8": "sekiz yüz",
 			"9": "dokuz yüz"}
 	
-	unitnames = ["", "bin", "milyon", "milyar", "trilyon", "katrilyon"]
+	unitnames = ["", "bin ", "milyon ", "milyar ", "trilyon ", "katrilyon "]
 
 	#SLICING 3-UNITS
 	units = []
@@ -71,4 +71,4 @@ def n2w(number):
 
 	return " ".join(result.split())
 
-print(n2w("1000000"))
+print(n2w("84680273"))
